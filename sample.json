@@ -1,0 +1,200 @@
+{
+  "MT_STATISTICS_REQUEST_STATUS": [
+    {
+      "ID": "SRS0",
+      "Status": "waiting_accept",
+      "ShowStatus": "รอการรับคำร้อง"
+    },
+    {
+      "ID": "SRS1",
+      "Status": "accept_group_1",
+      "ShowStatus": "รับคำร้องแล้วโดย กคร."
+    },
+    {
+      "ID": "SRS2",
+      "Status": "accept_group_2",
+      "ShowStatus": "รับคำร้องแล้วโดย กมส."
+    },
+    {
+      "ID": "SRS3",
+      "Status": "waiting_group_2",
+      "ShowStatus": "ตรวจแล้วโดย กคร."
+    },
+    {
+      "ID": "SRS4",
+      "Status": "waiting_group_1",
+      "ShowStatus": "ตรวจแล้วโดย กมส."
+    },
+    {
+      "ID": "SRS5",
+      "Status": "edit_request",
+      "ShowStatus": "แก้ไขคำร้อง"
+    },
+    {
+      "ID": "SRS6",
+      "Status": "edit_request_group_1",
+      "ShowStatus": "แก้ไขคำร้องโดย กคร."
+    },
+    {
+      "ID": "SRS7",
+      "Status": "edit_request_group_2",
+      "ShowStatus": "แก้ไขคำร้องโดย กมส."
+    },
+    {
+      "ID": "SRS8",
+      "Status": "waiting_assign",
+      "ShowStatus": "ตรวจแล้วโดย กคร. และ กมส."
+    },
+    {
+      "ID": "SRS9",
+      "Status": "assigned",
+      "ShowStatus": "มอบหมายงานแล้ว"
+    }
+  ],
+  "MT_STATISTICS_REQUEST_ACTION_BUTTONS": [
+    {
+      "ID": "SRB0",
+      "UserGroup": "",
+      "ButtonRole": "submit",
+      "ButtonName": "ยื่นคำร้อง",
+      "CurrentStatus": "",
+      "NextStatus": "waiting_accept"
+    },
+    {
+      "ID": "SRB1",
+      "UserGroup": "",
+      "ButtonRole": "submit",
+      "ButtonName": "แก้ไขคำร้อง",
+      "CurrentStatus": "waiting_accept",
+      "NextStatus": "waiting_accept"
+    },
+    {
+      "ID": "SRB2",
+      "UserGroup": "",
+      "ButtonRole": "submit",
+      "ButtonName": "แก้ไขคำร้อง",
+      "CurrentStatus": "edit_request_group_1",
+      "NextStatus": "waiting_accept"
+    },
+    {
+      "ID": "SRB3",
+      "UserGroup": "",
+      "ButtonRole": "submit",
+      "ButtonName": "แก้ไขคำร้อง",
+      "CurrentStatus": "edit_request_group_2",
+      "NextStatus": "waiting_accept"
+    },
+    {
+      "ID": "SRB4",
+      "UserGroup": "group_1",
+      "ButtonRole": "accept",
+      "ButtonName": "รับคำร้อง",
+      "CurrentStatus": "waiting_accept",
+      "NextStatus": "accept_group_1"
+    },
+    {
+      "ID": "SRB5",
+      "UserGroup": "group_2",
+      "ButtonRole": "accept",
+      "ButtonName": "รับคำร้อง",
+      "CurrentStatus": "waiting_accept",
+      "NextStatus": "accept_group_2"
+    },
+    {
+      "ID": "SRB6",
+      "UserGroup": "group_1",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "accept_group_1",
+      "NextStatus": "waiting_group_2"
+    },
+    {
+      "ID": "SRB7",
+      "UserGroup": "group_1",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "accept_group_1",
+      "NextStatus": "edit_request_group_1"
+    },
+    {
+      "ID": "SRB8",
+      "UserGroup": "group_2",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "accept_group_1",
+      "NextStatus": "waiting_group_1"
+    },
+    {
+      "ID": "SRB9",
+      "UserGroup": "group_2",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "accept_group_1",
+      "NextStatus": "edit_request_group_2"
+    },
+    {
+      "ID": "SRB10",
+      "UserGroup": "group_2",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "accept_group_2",
+      "NextStatus": "waiting_group_1"
+    },
+    {
+      "ID": "SRB11",
+      "UserGroup": "group_2",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "accept_group_2",
+      "NextStatus": "edit_request_group_2"
+    },
+    {
+      "ID": "SRB12",
+      "UserGroup": "group_1",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "accept_group_2",
+      "NextStatus": "waiting_group_2"
+    },
+    {
+      "ID": "SRB13",
+      "UserGroup": "group_1",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "accept_group_2",
+      "NextStatus": "edit_request_group_1"
+    },
+    {
+      "ID": "SRB14",
+      "UserGroup": "group_1",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "waiting_group_1",
+      "NextStatus": "waiting_assign"
+    },
+    {
+      "ID": "SRB15",
+      "UserGroup": "group_1",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "waiting_group_1",
+      "NextStatus": "edit_request_group_1"
+    },
+    {
+      "ID": "SRB16",
+      "UserGroup": "group_2",
+      "ButtonRole": "verify",
+      "ButtonName": "ยืนยัน",
+      "CurrentStatus": "waiting_group_2",
+      "NextStatus": "waiting_assign"
+    },
+    {
+      "ID": "SRB17",
+      "UserGroup": "group_2",
+      "ButtonRole": "reject",
+      "ButtonName": "ส่งกลับแก้ไข",
+      "CurrentStatus": "waiting_group_2",
+      "NextStatus": "edit_request_group_2"
+    }
+  ]
+}
